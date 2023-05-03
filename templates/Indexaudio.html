@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Speech to Text </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+<div class="main">
+    <div class="speechText" > Speech</div>
+    <div class="speak"><input type="text" id="SpeechToText" placeholder="User Said..." onclick="Listening()" name="Query"></div>
+
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
